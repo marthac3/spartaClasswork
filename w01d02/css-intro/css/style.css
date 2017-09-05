@@ -1,0 +1,24 @@
+body {
+	font-family: Helvetica;
+	font-size: 14px;
+}
+
+p, h1 {
+	color: red;
+}
+
+ul li.done {
+	color: blue;
+}
+
+.done {
+	color: green;
+}
+
+.another {
+	text-decoration: underline;
+}
+
+#ollie {
+	font-weight: bold;
+}
