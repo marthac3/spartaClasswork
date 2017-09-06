@@ -1,0 +1,44 @@
+body {
+	width: 100vw;
+	height: 100vh;
+}
+
+div {
+		height: 100%;
+		width: 33.33%;
+		display: inline;
+		float: left;
+	}
+
+.black {
+	background-color: #000000;
+}
+
+.yellow {
+	background-color: #cbcb00;
+}
+
+.red {
+	background-color: #ff0000;
+}
+
+@media screen and (max-width: 600px) {
+
+	div {
+		height: 33.33%;
+		width: 100%;
+		display: block;
+	}
+
+	.black {
+		background-color: #000000;
+	}
+
+	.yellow {
+		background-color: #ff0000;
+	}
+
+	.red {
+		background-color: #cbcb00;
+	}
+}

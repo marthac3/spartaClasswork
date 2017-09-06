@@ -1,0 +1,95 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+/* * {
+	border: 2px solid black;
+	box-sizing: border-box;
+}*/
+
+body {
+ 	font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  	margin: 0;
+
+  	/* longer */
+  	/*background-image: url(../images/bgtile.png);
+  		background-repeat: repeat-x;*/
+
+  	/* shorter */
+  	background: #fff url("../images/bgtile.png") repeat-x;
+}
+
+main {
+	width: 880px;
+
+	/* top:90px right:auto down:0 left:auto; 
+		auto centres margin*/
+	margin: 90px auto 0 auto;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+	width: 500px;
+}
+
+.bottom {
+	/* ignore left and right floats */
+	clear: both;
+	padding-top: 30px;
+}
+
+.bottom nav ul {
+	list-style: none;
+	text-align: center;
+	font-weight: bold;
+	font-size: 0.7em;
+}
+
+.bottom nav ul li {
+	color: #999;
+	display: inline;
+	margin-top: 20px;
+	padding: 0 8px 0 8px;
+}
+
+.bottom nav ul li a {
+	color: #3e75a2;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.bottom nav ul li a:hover {
+	color: #1c5380;
+	text-decoration: underline;
+}
+
+.text {
+	background-image: url("../images/frame.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding: 10px 40px;
+	font-size: 0.95em;
+}
+
+.button {
+	display: inline;
+	padding: 0 0 0 15px;
+}
+
+span {
+	font-weight: bold;
+}
+
+h2 {
+	color: #06365f;
+}
+
+p {
+	color: #333333;
+}
