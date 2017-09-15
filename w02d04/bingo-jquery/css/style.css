@@ -1,0 +1,42 @@
+.ball {
+	background-color: #eeeeee;
+	height: 50px;
+	width: 50px;
+	margin: 2.5%;
+	display: inline-block;
+	text-align: center;
+	line-height: 50px;
+	border: 2px solid black;
+	border-radius: 100%;
+}
+
+.playerboard {
+	background-color: #d2926f;
+	border: 2px solid #c2825f;
+	height: 100px;
+	width: 200px;
+	padding: 10px;
+	margin: auto;
+}
+
+
+.board {
+	background-color: #d2926f;
+	border: 2px solid #c2825f;
+	height: 100px;
+	width: 80%;
+	padding: 10px;
+	margin: auto;
+}
+
+#yell {
+	background-color: #8572ab;
+	height: 100px;
+	width: 40%;
+	margin: 20px 30% 20px 30%;
+	font-weight: bold;
+	font-size: 3rem;
+	color: #eeeeee;
+}
+
+/* add style */
