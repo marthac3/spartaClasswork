@@ -84,7 +84,7 @@ $(function() {
         if (player1.length === 0) {
             alert ("Bingo! Player 1 wins");
         } else if (player2.length === 0) {
-            alert ("Bingo! Player 2 wins")
+            alert ("Bingo! Player 2 wins");
         }
     }
 

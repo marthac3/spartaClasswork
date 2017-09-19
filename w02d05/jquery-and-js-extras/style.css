@@ -1,0 +1,39 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+ul    {
+    list-style-type: none;
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    border: 2px solid black;
+    padding: 0;
+}
+
+li {
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    display: none;
+    float: left;
+    border: 1px solid black;
+    list-style-type: none;
+}
+
+.green {
+	background-color: #77ff77;
+}
+
+.blue {
+	background-color: #7777ff;
+}
+
+.red {
+	background-color: #ff7777;
+}
+
+.yellow {
+	background-color: #ffff77;
+}
