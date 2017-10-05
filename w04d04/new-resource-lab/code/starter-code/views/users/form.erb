@@ -1,0 +1,28 @@
+<form action="/users/<%= @user[:id] %>" method="POST">
+  <div>
+    <label>First Name</label>
+    <input type="text" name="firstname" placeholder="Enter a first name" value="<%= @user[:firstname] %>">
+  </div>
+
+  <div>
+    <label>Last Name</label>
+    <input type="text" name="lastname" placeholder="Enter a last name" value="<%= @user[:lastname] %>">
+  </div>
+
+  <div>
+    <label>Email</label>
+    <input type="text" name="email" placeholder="Enter an email" value="<%= @user[:email] %>">
+  </div>
+
+  <div>
+    <label>Age</label>
+    <input type="text" name="age" placeholder="Enter an age" value="<%= @user[:age] %>">
+  </div>
+
+  <div>
+    <input class=submit type="submit" value="Save User">
+  </div>
+  <% if(@user[:id] != "") %>
+    <input type="hidden" name="_method" value="PUT">
+  <% end %>
+</form>

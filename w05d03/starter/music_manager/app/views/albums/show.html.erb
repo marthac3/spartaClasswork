@@ -1,0 +1,11 @@
+<h1>Album Show Page</h1>
+
+  <%= render @album %>
+
+<br>
+
+<%= link_to "Edit", edit_album_path(@album) %> |
+<%= link_to "Back", albums_path %> |
+
+<%= link_to "Destroy", @album, method: :delete, data: { confirm: "Are you sure?" } %>
+

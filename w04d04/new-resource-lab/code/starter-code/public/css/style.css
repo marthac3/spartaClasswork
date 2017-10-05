@@ -1,0 +1,43 @@
+body {
+	background-color: #f5f5f5;
+	font-family: Helvetica;
+}
+
+nav {
+	font-weight: bold;
+	font-size: 1.2rem;
+	border: 1px solid #555555;
+	padding: 2px 5px 2px 5px;
+}
+
+a:hover {
+	color: #3aaaca;
+}
+
+a {
+	padding: 2px 5px 2px 5px;
+}
+
+.post {
+	border: 1px solid #555555;
+	padding: 0 5px 0 5px;
+}
+
+label {
+	padding: 5px 10px 5px 0;
+	margin: 5px 10px 5px 0;
+}
+
+input {
+	padding: 5px 10px 5px 0;
+	margin: 5px 10px 5px 0;
+}
+
+form {
+	border: 1px solid #555555;
+	padding: 0 5px 0 5px;
+}
+
+.submit {
+	font-size: 3rem;
+	margin: 5px 10px 5px 10px;

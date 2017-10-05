@@ -35,9 +35,11 @@ class CakesApiController < Sinatra::Base
 
 	#CREATE
 	post "/api/cakes" do
-		new_cake = {}
-			
-		$cakes.push(new_cake)
+		id = params[:id].to_i
+		flavour = params[:flavour]
+		layers = params[:layers].to_i
+		$cakes.push({id: id, flavour: flavour, layers: layers})
+		json $cakes
 	end
 
 	#UPDATE

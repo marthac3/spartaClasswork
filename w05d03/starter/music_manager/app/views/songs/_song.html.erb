@@ -1,0 +1,5 @@
+<p>Title: <%= song.title %> - <em><%= song.duration %></em>
+
+  <%= link_to "Show Page", album_song_path(@album, song) if controller_name == "songs" %> - 
+  <%= link_to "Edit Page", edit_album_song_path(@album, song) if controller_name == "songs" %>
+</p>

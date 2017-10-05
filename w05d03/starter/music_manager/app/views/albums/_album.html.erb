@@ -1,0 +1,8 @@
+<p>Title: <%= album.name %></p>
+<p>Genre: <%= album.genre %></p>
+
+<%= link_to "Show Page", album if action_name == "index" %> |
+<%= link_to "Edit Page", edit_album_path(album) %>
+
+<br>
+--------------------------------------
