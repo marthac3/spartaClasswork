@@ -1,4 +1,4 @@
-require 'capybara/dsl'
+,require 'capybara/dsl'
 
 class Katalon
 	include Capybara::DSL
